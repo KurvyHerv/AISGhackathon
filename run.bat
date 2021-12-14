@@ -1,0 +1,1 @@
+peekingduck run --config_path run_config.yml

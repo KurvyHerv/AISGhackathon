@@ -1,0 +1,9 @@
+nodes:
+- input.live:
+    resize: {"do_resizing":True, "width":1280, "height":800}
+- model.yolo:
+    num_classes: 10
+    detect_ids: [0,45]
+- draw.bbox
+- output.screen
+- custom_nodes.output.csv_writer

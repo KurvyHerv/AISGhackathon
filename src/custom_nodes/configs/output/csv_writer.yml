@@ -1,0 +1,7 @@
+# Mandatory configs
+input: ["bbox_labels", "bbox_scores"]   # replace values
+output: ["bbox_labels", "bbox_scores"]  # replace values
+# Optional configs depending on node
+threshold: 0.5                          # example
+filepath: "results/stats.csv"           # output file location
+
